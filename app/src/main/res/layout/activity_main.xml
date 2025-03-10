@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout (Without Weight)"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:background="@color/white"/>
+
+    <!-- My Name TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hala Abdallah Awad"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+    <!-- Button 1 - Green -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="BUTTON 1"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTintMode="add" />
+
+    <!-- Button 2 - Yellow -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="BUTTON 2"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTintMode="add" />
+
+    <!-- Button 3 - Blue -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="BUTTON 3"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTintMode="add" />
+
+    <!-- Button 4 - Pink -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:text="BUTTON 4"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTintMode="add" />
+
+    <!-- Footer TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout UI"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:paddingTop="30dp"/>
+</LinearLayout>
