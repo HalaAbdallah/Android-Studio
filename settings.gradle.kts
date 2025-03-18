@@ -13,5 +13,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "NewLecture"
 include(":app")
+=======
+rootProject.name = "Home"
+include(":app")
+ 
+>>>>>>> bb82df5 (Homework2)

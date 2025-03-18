@@ -1,80 +1,33 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical"
-    android:padding="16dp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Title TextView -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="Linear Layout (Without Weight)"
-        android:textColor="@color/black"
-        android:textSize="18sp" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Home"
+        tools:targetApi="31">
 
-    <!-- My Name TextView -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:gravity="center"
-        android:text="Hala Abdallah Awad"
-        android:textColor="@color/black"
-        android:textSize="18sp" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-    <!-- Button 1 - Green -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/green"
-        android:text="BUTTON 1"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        app:backgroundTintMode="add" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"/>
 
-    <!-- Button 2 - Yellow -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/yellow"
-        android:text="BUTTON 2"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        app:backgroundTintMode="add" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+    </application>
 
-    <!-- Button 3 - Blue -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue"
-        android:text="BUTTON 3"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        app:backgroundTintMode="add" />
-
-    <!-- Button 4 - Pink -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:text="BUTTON 4"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        app:backgroundTintMode="add" />
-
-    <!-- Footer TextView -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingTop="30dp"
-        android:text="Linear Layout UI"
-        android:textColor="@color/green"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-</LinearLayout>
+</manifest>

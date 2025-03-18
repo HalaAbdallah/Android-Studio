@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">NewLecture</string>
+=======
+    <string name="app_name">Home</string>
+>>>>>>> bb82df5 (Homework2)
 </resources>

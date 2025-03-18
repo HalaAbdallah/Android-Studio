@@ -2,8 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="green">#FF008000</color>
     <color name="yellow">#FFFFD700</color>
     <color name="blue">#FF0000FF</color>
     <color name="pink">#FFFF00FF</color>
+=======
+    <color name="lightGray">#D7ECEBEB</color>
+>>>>>>> bb82df5 (Homework2)
 </resources>
