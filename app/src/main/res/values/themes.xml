@@ -1,17 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="Base.Theme.NewLecture" parent="Theme.Material3.DayNight.NoActionBar">
-=======
-    <style name="Base.Theme.Home" parent="Theme.Material3.DayNight.NoActionBar">
->>>>>>> bb82df5 (Homework2)
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
-
-<<<<<<< HEAD
+    <style name="Base.Theme.NewLecture" parent="Theme.Material3.DayNight.NoActionBar" />
     <style name="Theme.NewLecture" parent="Base.Theme.NewLecture" />
-=======
+
+    <style name="Base.Theme.Home" parent="Theme.Material3.DayNight.NoActionBar" />
     <style name="Theme.Home" parent="Base.Theme.Home" />
->>>>>>> bb82df5 (Homework2)
 </resources>
